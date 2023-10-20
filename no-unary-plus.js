@@ -1,4 +1,4 @@
-// enforce-no-unary-plus.js
+// no-unary-plus.js
 
 module.exports = {
   meta: {

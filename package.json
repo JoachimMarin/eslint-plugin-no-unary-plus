@@ -1,10 +1,10 @@
 {
   "name": "eslint-plugin-no-unary-plus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint plugin to disallow unary + operators.",
   "main": "eslint-plugin-no-unary-plus.js",
   "scripts": {
-    "test": "node enforce-no-unary-plus.test.js"
+    "test": "node no-unary-plus.test.js"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"

@@ -1,6 +1,6 @@
-// enforce-no-unary-plus.test.js
+// no-unary-plus.test.js
 const { RuleTester } = require("eslint");
-const rule = require("./enforce-no-unary-plus");
+const rule = require("./no-unary-plus");
 
 const ruleTester = new RuleTester({
   // Must use at least ecmaVersion 2015 because
@@ -10,7 +10,7 @@ const ruleTester = new RuleTester({
 
 // Throws error if the tests in ruleTester.run() do not pass
 ruleTester.run(
-  "enforce-no-unary-plus", // rule name
+  "no-unary-plus", // rule name
   rule, // rule code
   {
     // checks
